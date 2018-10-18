@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+#toledos-plants{
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+    font-weight:600;
+    margin-left: 20px;
+    width: 350px;
+    
+
+}
+
+#header-container{
+    background-color: rgba(36, 170, 36, 0.733);
+    height: 80px;
+    padding-top: 20px;
+
+
+}
+body{
+    background: url(/assets/images/sprinkles_@2x.png)
+   
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    text-align: center;
+    padding: 2px 16px;
+}
+
+footer{
+    background-color: rgba(36, 170, 36, 0.733); 
+    text-align: center;
+    padding-top:10px;
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+}
